@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>NYCU EO Data Science and Python Programming</title>
+        <link rel="stylesheet" href="eo.css">
+    </head>
+<body>
+    <!-- 首頁 -->
+    <div id="home">
+        <button id="enter-course" type="button">
+            <img class="cover-logo" src="images/logo.png" alt="光電工程學系">
+
+            <span class="cover-school">NYCU EO</span>
+            <h1>資料科學與<br>Python 程式實務</h1>
+
+            <p>點擊進入課程 →</p>
+        </button>
+    </div>
+
+    <!-- 課程頁：一開始隱藏 -->
+    <div id="course" hidden>
+        <header class="topbar">
+            <button
+                id="menu-toggle"
+                type="button"
+                aria-label="開啟課程選單"
+                aria-controls="sidebar"
+                aria-expanded="false"
+            >☰</button>
+
+            <button id="back-home" type="button" aria-label="回到首頁">
+                <img class="header-logo" src="images/logo.png" alt="">
+                <span>Data Science and Python Programming</span>
+            </button>
+        </header>
+
+        <div class="course-layout">
+            <nav id="sidebar" aria-label="課程目錄" hidden>
+                <h2>課程目錄</h2>
+            <div class="sidebar-actions">
+                <button id="show-resources" type="button">課程資源下載</button>
+            </div>
+
+            <section>
+                <h2>Python 開發環境建置</h2>
+                <ul>
+                    <li><a href="https://hackmd.io/@snch1211/B14wBiv9Mx">Python 開發環境建置（macOS / Linux 篇）</a></li>
+                    <li><a href="https://hackmd.io/@TongGG/B1joKZucMe">Python開發環境建置（windows篇）</a></li>
+                    <li><a href="https://hackmd.io/@TongGG/r1Dbu_K9zx">Python開發環境建置（Windows 實測版）</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>A. Principles of Data Literacy</h2>
+                <ul>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/SyafQIPN-g">A_1.Introduction to Data Literacy</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/rJdCXUwVZl">A_2. Thinking Data</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/B1lF0TKrbg">A_3. Visualizing Data</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/rkwh5_jrZx">A_4. Analyzing Data</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>B. Python Fundamentals</h2>
+                <ul>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/rycN-8J8Zl">B_1. Basic Python Syntax and Data Types</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/Byx43fULZx">B_2. Functions</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/S1-q3HdUWe">B_3. Control Flow</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/SJSYszs8Wx">B_4. Introduction to Lists</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/SksfuT3LWg">B_5. Working with Lists</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/r1QE836LWg">B_6. Loops</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/Hy_yiPXwWl">B_7. Strings</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/S1J8oDmPWx">B_8. Working with Strings</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/ryYgQxA8Ze">B_9. Dictionaries</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/SyHneIlwWe">B_10. Working with Dictionaries</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/BJWUDFxD-g">B_11. Files</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>C. Python Pandas and Numpy</h2>
+                <ul>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/SyoUO3EDbg">C_1. Introduction</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/rJY9Lmwvbe">C_2. Lambda Functions</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/ByFH3QDvbx">C_3. Hands-on with pandas</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/H19zOItvbl">C_4. Modifying DataFrames</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/r1EHjqtPWl">C_5. Aggregation in pandas</a></li>
+                    <li><a href="https://hackmd.io/@wXP1AgrmTTi2IXM8P62bEw/S1rm8icvZx">C_6. Multiple DataFrames</a></li>
+                </ul>
+            </section>
+            </nav>
+
+            <main class="reader">
+                <!-- 課程資源 -->
+                <section id="resources-panel" class="resources-panel" hidden>
+                    <p class="eyebrow">COURSE RESOURCES</p>
+                    <h1>課程資源下載</h1>
+                    <p>課程使用的資料集、程式範例與補充教材。</p>
+                    <div class="resource-list">
+                        <a class="resource-item" href="resources/data.zip" download>
+                            <span>data</span>
+                            <span class="download-label">下載 data.zip ↓</span>
+                        </a>
+
+                        <a class="resource-item" href="resources/Numpy.zip" download>
+                            <span>NumPy</span>
+                            <span class="download-label">下載 Numpy.zip ↓</span>
+                        </a>
+                    </div>
+                </section>
+
+                <!-- 講義閱讀區 -->
+                <iframe
+                    name="lesson-frame"
+                    id="lesson-frame"
+                    title="課程講義閱讀視窗"
+                    src="about:blank"
+                    hidden
+                ></iframe>
+            </main>
+        </div>
+    </div>
+
+    <script src="eo.js"></script>
+</body>
