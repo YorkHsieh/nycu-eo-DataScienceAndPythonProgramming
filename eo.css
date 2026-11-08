@@ -365,7 +365,3 @@ a:focus-visible {
         letter-spacing: 3px;
     }
 }
-/* 讓內嵌講義呈現深色 */
-#lesson-frame {
-    filter: invert(1) hue-rotate(180deg);
-}
